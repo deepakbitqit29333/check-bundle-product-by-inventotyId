@@ -68,7 +68,7 @@ async function getInventory(inventoryId: number) {
 
   const product = result.data.inventoryItem.variant.product;
 
-  console.log('InventoryId:', inventoryId);
+  // console.log('InventoryId:', inventoryId);
   // console.log('hasVariantsThatRequiresComponents:', product.hasVariantsThatRequiresComponents);
   if (!product.hasVariantsThatRequiresComponents) {
     throw new Error('Product does not have variants that require components.');
