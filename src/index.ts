@@ -77,6 +77,7 @@ async function getInventory(inventoryId: number) {
   return result.data.inventoryItem;
 }
 
+
 // Example usage
 const inventoryids = INVENTORY_IDS;
 // console.log('InventoryIds:', inventoryids);
